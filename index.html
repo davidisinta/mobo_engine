@@ -88,9 +88,11 @@
 
     <section id="post-mortem">
         <h2>Post Mortem</h2>
-        <p>If given an additional 8 weeks, I would focus on the following areas for improvement:</p>
-        <p>Firstly, enhancing the visual fidelity and performance optimization of the game engine. Introducing more robust debugging tools would be a priority. Secondly, refining the asset management system to allow for seamless integration of assets.</p>
-        <p>Lastly, I would allocate time to polish the user interface and explore new gameplay mechanics to improve user engagement. With these changes, the project could reach a more professional and feature-complete state.</p>
+        <p>Engine: To improve the engine, I would incorporate a GUI that enables users to load a JSON file specifying how to build the game map, with the ability to preview the map based on the provided file. I would also implement a more robust physics engine to handle object movements and manipulations, such as rotating objects in small increments (rather than 90 degrees at a time) and enabling reflections (e.g., a bullet ricocheting off another object). Upgrading the audio engine from SDL_Audio to a more advanced one like SDL_Mixer would also be a priority. Lastly, I would leverage D's metaprogramming strengths to pass many configurations as JSON files, enhancing the engine's flexibility.</p>
+
+        <p>Game: To improve the game, I would add features like lives or a health bar, so a hit doesn't immediately result in death. I would also introduce different types of shooting, such as laser or bomb-based weapons. To enhance the user experience, I would incorporate a game menu and more advanced levels. Finally, I would smooth out player movement for a more polished gameplay experience.</p>
+
+
     </section>
 
     <footer>
